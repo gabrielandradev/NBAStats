@@ -10,6 +10,14 @@ pacman::p_load_current_gh("sportsdataverse/hoopR", dependencies = TRUE, update =
 
 player_data <- load_nba_player_box(2023:2024)
 
+nba_defensehub(
+  league_id = "00",
+  game_scope = "Season",
+  player_or_team = "Team",
+  player_scope = "All Players",
+  season = year_to_season(most_recent_nba_season() - 1),
+  season_type = "Regular Season"
+)
 
 # Calculamos la media de minutos de las temporadas
 player_avg_minutes <- player_data %>%
@@ -23,27 +31,25 @@ training_data <- player_data %>%
 # Convertimos los vectores a factores de categorias ej: c1 = ('regular', 'playoffs')
 training_data$home_away <- as.factor(training_data$home_away)
 training_data$season_type <- as.factor(training_data$season_type)
-training_data$opponent_team_name <- as.factor(training_data$opponent_team_name)
 
 # Creamos los modelos de regresion lineal para las variables definidas
-assists_model <- lm(assists ~ home_away + season_type + avg_minutes + opponent_team_name,
+assists_model <- lm(assists ~ home_away + season_type + avg_minutes,
   data = training_data
 )
-offensive_rebounds_model <- lm(offensive_rebounds ~ home_away + season_type + avg_minutes + opponent_team_name,
+offensive_rebounds_model <- lm(offensive_rebounds ~ home_away + season_type + avg_minutes,
   data = training_data
 )
-free_throws_attempted_model <- lm(free_throws_attempted ~ home_away + season_type + avg_minutes + opponent_team_name,
+points_model <- lm(points ~ home_away + season_type + avg_minutes,
   data = training_data
 )
 
 predict_game_stats <- function(player_name, game_location, game_type, opponent_team) {
   # Predecimos basados en los juegos anteriores con las mismas caracteristicas
-  player_games <- training_data %>%
+  player_raw_games_stats <- training_data %>%
     filter(
       athlete_display_name == player_name,
       home_away == game_location,
-      season_type == game_type,
-      opponent_team_name == opponent_team
+      season_type == game_type
     ) %>%
     unique()
 
@@ -52,27 +58,16 @@ predict_game_stats <- function(player_name, game_location, game_type, opponent_t
     stop("No se encuentran datos previos del jugador con esas caracteristicas.")
   }
 
-  player_minutes <- player_avg_minutes %>%
-    filter(
-      athlete_display_name == player_name
-    ) %>%
-    pull(avg_minutes)
-
-  # Si el jugador no sumo minutos en ningun juego anterior, no realizamos la prediccion
-  if (length(player_minutes) == 0) {
-    stop("No se encuentran participaciones del jugador en esos encuentros.")
-  }
-
   # Predecimos utilizando los modelos anteriores
-  predicted_assists <- predict(assists_model, player_games)
-  predicted_offensive_rebounds <- predict(offensive_rebounds_model, player_games)
-  predicted_free_throws_attempted <- predict(free_throws_attempted_model, player_games)
+  predicted_assists <- predict(assists_model, aggregated_player_stats)
+  predicted_offensive_rebounds <- predict(offensive_rebounds_model, aggregated_player_stats)
+  predicted_points <- predict(points_model, aggregated_player_stats)
 
   # Mostramos las predicciones
   cat("Estadisticas para ", player_name, "en un ", game_location, " game contra los ", opponent_team, " de la temporada:\n")
   cat("Assists:", round(predicted_assists, 2), "\n")
   cat("Offensive Rebounds:", round(predicted_offensive_rebounds, 2), "\n")
-  cat("Free Throws Attempted:", round(predicted_free_throws_attempted, 2), "\n")
+  cat("Points:", round(predicted_points, 2), "\n")
 }
 
 regular_season_game <- 2
@@ -82,8 +77,8 @@ game_away <- "away"
 game_home <- "home"
 
 predict_game_stats(
-  player_name = "Bam Adebayo",
+  player_name = "Giannis Antetokounmpo",
   game_location = game_home,
   game_type = playoffs_game,
-  opponent_team = "Nuggets"
+  opponent_team = "Heat"
 )
