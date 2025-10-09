@@ -67,18 +67,3 @@ cat("Exactitud de puntos: ", points_accuracy, "\n")
 cat("Exactitud de asistencias: ", assists_accuracy, "\n")
 cat("Exactitud de rebotes: ", rebounds_accuracy, "\n")
 cat("Exactitud global: ", global_accuracy, "\n")
- 
-# team_game_logs = nba_teamgamelogs(last_n_games = 0,
-#                                   league_id = "00",
-#                                   measure_type = "Base",
-#                                   month = 0,
-#                                   opponent_team_id = 0,
-#                                   po_round = 0,
-#                                   pace_adjust = "N",
-#                                   per_mode = "Totals",
-#                                   period = 0,
-#                                   plus_minus = "N",
-#                                   rank = "N",
-#                                   season = "2025-26",
-#                                   season_type = "Pre Season",
-#                                   team_id = "")
