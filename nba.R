@@ -91,6 +91,7 @@ all_data <- all_data %>%
   inner_join(all_team_games, by = c("opponent_team_abbreviation" = "TEAM_ABBREVIATION", "game_date" = "GAME_DATE")) %>%
   rename("opponent_defensive_rating" = "E_DEF_RATING")
 
+all_data$season_type = replace(all_data$season_type, all_data$season_type == 5, 3)
 
 all_data$home_away <- factor(all_data$home_away, levels = c("home", "away"))
 all_data$season_type <- factor(all_data$season_type,
@@ -125,7 +126,6 @@ all_data_clean <- all_data %>%
   select(all_of(model_vars)) %>%
   na.omit()
 
-
 training_percentage <- 0.7
 players <- unique(all_data_clean$athlete_display_name)
 
@@ -156,12 +156,29 @@ for (player in players) {
       days_ago = as.numeric(max(game_date) - game_date),
       weight = exp(-days_ago / weight_factor)
     )
+  
+  regular_data <- player_data[player_data$season_type == "regular", ]
+  playoffs_data <- player_data[player_data$season_type == "playoffs", ]
+  
+  if (nrow(playoffs_data) == 0) {
+    cat(player, "played no playoffs games")
+    next
+  }
+  
+  regular_training_indices <- 1:floor(nrow(regular_data) * training_percentage)
+  playoffs_training_indices <- 1:floor(nrow(playoffs_data) * training_percentage)
 
-  training_indices <- 1:floor(nrow(player_data) * training_percentage)
-  testing_indices <- (floor(nrow(player_data) * training_percentage) + 1):nrow(player_data)
+  # training_indices <- 1:floor(nrow(player_data) * training_percentage)
+  # testing_indices <- (floor(nrow(player_data) * training_percentage) + 1):nrow(player_data)
 
-  training_data <- player_data[training_indices, ]
-  testing_data <- player_data[testing_indices, ]
+  training_data <- rbind(regular_data[regular_training_indices, ],
+                         playoffs_data[playoffs_training_indices, ])
+  
+  testing_data <- rbind(regular_data[-regular_training_indices, ],
+                         playoffs_data[-playoffs_training_indices, ])
+  
+  # training_data <- player_data[training_indices, ]
+  # testing_data <- player_data[testing_indices, ]
 
   cat("Training model for ", player, "\n", sep = "")
 
@@ -178,26 +195,26 @@ for (player in players) {
   cat("Training model for ", player, "\n", sep = "")
 
   points_model <- lm(
-    points ~ home_away + opponent_defensive_rating + minutes,
+    points ~ season_type + home_away + opponent_defensive_rating,
     data = training_data,
     weights = training_data$weight,
     na.action = na.omit
   )
 
   assists_model <- lm(
-    assists ~ home_away + opponent_defensive_rating + minutes,
+    assists ~ season_type + home_away + opponent_defensive_rating,
     data = training_data,
     weights = training_data$weight,
     na.action = na.omit
   )
 
   off_rebounds_model <- lm(
-    offensive_rebounds ~ home_away + opponent_defensive_rating + minutes,
+    offensive_rebounds ~ season_type + home_away + opponent_defensive_rating,
     data = training_data,
     weights = training_data$weight,
     na.action = na.omit
   )
-
+  
   points_k <- calculate_k(training_data$points)
   assists_k <- calculate_k(training_data$assists)
   off_rebounds_k <- calculate_k(training_data$offensive_rebounds)
@@ -282,23 +299,23 @@ if (length(aggregated_results_list) > 0) {
     geom_point(alpha = 0.3, color = "blue") +
     geom_abline(slope = 1, intercept = 0, color = "red", linetype = "dashed", size = 1) +
     labs(
-      title = "Predicted vs. Actual Points (All Players)",
-      x = "Actual Points",
-      y = "Predicted Points",
-      caption = "Red dashed line is y = x (perfect prediction)"
+      title = "Puntos Predichos vs Reales (Todos los jugadores)",
+      x = "Puntos reales",
+      y = "Puntos predichos",
+      caption = "Línea roja es y = x (predicción perfecta)"
     ) +
     theme_minimal()
-
+  
   print(points_plot)
 
   assists_plot <- ggplot(aggregated_results, aes(x = assists, y = predicted_assists)) +
     geom_point(alpha = 0.3, color = "darkgreen") +
     geom_abline(slope = 1, intercept = 0, color = "red", linetype = "dashed", size = 1) +
     labs(
-      title = "Predicted vs. Actual Assists (All Players)",
-      x = "Actual Assists",
-      y = "Predicted Assists",
-      caption = "Red dashed line is y = x (perfect prediction)"
+      title = "Asistencias Predichas vs Reales (Todos los jugadores)",
+      x = "Asistencias reales",
+      y = "Asistencias predichas",
+      caption = "Línea roja es y = x (predicción perfecta)"
     ) +
     theme_minimal()
 
@@ -309,10 +326,10 @@ if (length(aggregated_results_list) > 0) {
     geom_point(alpha = 0.3, color = "purple") +
     geom_abline(slope = 1, intercept = 0, color = "red", linetype = "dashed", size = 1) +
     labs(
-      title = "Predicted vs. Actual Offensive Rebounds (All Players)",
-      x = "Actual Offensive Rebounds",
-      y = "Predicted Offensive Rebounds",
-      caption = "Red dashed line is y = x (perfect prediction)"
+      title = "Rebotes Ofensivos Predichos vs Reales (Todos los jugadores)",
+      x = "Rebotes ofensivos reales",
+      y = "Rebotes ofensivos predichos",
+      caption = "Línea roja es y = x (predicción perfecta)"
     ) +
     theme_minimal()
 
@@ -320,3 +337,14 @@ if (length(aggregated_results_list) > 0) {
 } else {
   cat("\nNo results were aggregated to graph.\n")
 }
+
+# for (model in models) {
+#   print(model[1])
+#   print(model[2])
+#   print(model[3])
+# }
+# 
+# model <- models[["Bam Adebayo"]]
+# print(summary(model))
+# print(model[2])
+# print(model[3])
