@@ -5,7 +5,7 @@
 #   __/   /     ||
 #               ||
 #               ||
-#_______________||________________
+# _______________||________________
 
 
 
@@ -91,7 +91,7 @@ all_data <- all_data %>%
   inner_join(all_team_games, by = c("opponent_team_abbreviation" = "TEAM_ABBREVIATION", "game_date" = "GAME_DATE")) %>%
   rename("opponent_defensive_rating" = "E_DEF_RATING")
 
-all_data$season_type = replace(all_data$season_type, all_data$season_type == 5, 3)
+all_data$season_type <- replace(all_data$season_type, all_data$season_type == 5, 3)
 
 all_data$home_away <- factor(all_data$home_away, levels = c("home", "away"))
 all_data$season_type <- factor(all_data$season_type,
@@ -135,6 +135,11 @@ points_accuracy <- 0
 assists_accuracy <- 0
 off_rebounds_accuracy <- 0
 
+
+points_mae <- 0
+assists_mae <- 0
+off_rebounds_mae <- 0
+
 weight_factor <- 365
 
 total_predicted_values <- all_data %>%
@@ -144,6 +149,12 @@ total_actual_values <- all_data %>%
   slice(0)
 
 aggregated_results_list <- list()
+
+start.time <- Sys.time()
+
+points_k <- calculate_k(all_data$points)
+assists_k <- calculate_k(all_data$assists)
+off_rebounds_k <- calculate_k(all_data$offensive_rebounds)
 
 for (player in players) {
   player_data <- all_data_clean %>%
@@ -156,27 +167,31 @@ for (player in players) {
       days_ago = as.numeric(max(game_date) - game_date),
       weight = exp(-days_ago / weight_factor)
     )
-  
+
   regular_data <- player_data[player_data$season_type == "regular", ]
   playoffs_data <- player_data[player_data$season_type == "playoffs", ]
-  
+
   if (nrow(playoffs_data) == 0) {
     cat(player, "played no playoffs games")
     next
   }
-  
+
   regular_training_indices <- 1:floor(nrow(regular_data) * training_percentage)
   playoffs_training_indices <- 1:floor(nrow(playoffs_data) * training_percentage)
 
   # training_indices <- 1:floor(nrow(player_data) * training_percentage)
   # testing_indices <- (floor(nrow(player_data) * training_percentage) + 1):nrow(player_data)
 
-  training_data <- rbind(regular_data[regular_training_indices, ],
-                         playoffs_data[playoffs_training_indices, ])
-  
-  testing_data <- rbind(regular_data[-regular_training_indices, ],
-                         playoffs_data[-playoffs_training_indices, ])
-  
+  training_data <- rbind(
+    regular_data[regular_training_indices, ],
+    playoffs_data[playoffs_training_indices, ]
+  )
+
+  testing_data <- rbind(
+    regular_data[-regular_training_indices, ],
+    playoffs_data[-playoffs_training_indices, ]
+  )
+
   # training_data <- player_data[training_indices, ]
   # testing_data <- player_data[testing_indices, ]
 
@@ -184,11 +199,6 @@ for (player in players) {
 
   if (nrow(player_data) < 20) {
     cat("Skipping ", player, ": Insufficient complete games after cleaning.\n", sep = "")
-    next
-  }
-
-  if (length(testing_indices) == 0) {
-    cat("Skipping ", player, ": No testing data after split.\n", sep = "")
     next
   }
 
@@ -214,10 +224,6 @@ for (player in players) {
     weights = training_data$weight,
     na.action = na.omit
   )
-  
-  points_k <- calculate_k(training_data$points)
-  assists_k <- calculate_k(training_data$assists)
-  off_rebounds_k <- calculate_k(training_data$offensive_rebounds)
 
   prediction <- data.frame(
     points = predict(points_model, newdata = testing_data),
@@ -242,6 +248,11 @@ for (player in players) {
 
   valid_players_count <- valid_players_count + 1
 
+
+  points_mae <- points_mae + calculate_mae(actual_points, prediction$points)
+  assists_mae <- assists_mae + calculate_mae(actual_assists, prediction$assists)
+  off_rebounds_mae <- off_rebounds_mae + calculate_mae(actual_off_rebounds, prediction$off_rebounds)
+
   points_accuracy <- points_accuracy + calculate_accuracy(
     actual_points,
     prediction$points,
@@ -264,6 +275,15 @@ for (player in players) {
 }
 
 if (valid_players_count > 0) {
+  points_mae <- points_mae / valid_players_count
+  assists_mae <- assists_mae / valid_players_count
+  off_rebounds_mae <- off_rebounds_mae / valid_players_count
+
+  cat(points_mae, "\n")
+  cat(assists_mae, "\n")
+  cat(off_rebounds_mae, "\n")
+
+
   points_accuracy <- points_accuracy / valid_players_count
   assists_accuracy <- assists_accuracy / valid_players_count
   off_rebounds_accuracy <- off_rebounds_accuracy / valid_players_count
@@ -305,7 +325,7 @@ if (length(aggregated_results_list) > 0) {
       caption = "Línea roja es y = x (predicción perfecta)"
     ) +
     theme_minimal()
-  
+
   print(points_plot)
 
   assists_plot <- ggplot(aggregated_results, aes(x = assists, y = predicted_assists)) +
@@ -338,13 +358,6 @@ if (length(aggregated_results_list) > 0) {
   cat("\nNo results were aggregated to graph.\n")
 }
 
-# for (model in models) {
-#   print(model[1])
-#   print(model[2])
-#   print(model[3])
-# }
-# 
-# model <- models[["Bam Adebayo"]]
-# print(summary(model))
-# print(model[2])
-# print(model[3])
+end.time <- Sys.time()
+time.taken <- end.time - start.time
+time.taken
