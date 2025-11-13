@@ -1,0 +1,383 @@
+athlete_display_name,game_date,game_date_time,points,assists,offensive_rebounds,home_away,season_type,opponent_defensive_rating,minutes
+Shai Gilgeous-Alexander,2025-10-21,2025-10-21 19:30:00,35,5,0,home,regular,107.8,47
+Jimmy Butler III,2025-10-21,2025-10-21 22:00:00,31,4,2,away,regular,118.1,35
+Draymond Green,2025-10-21,2025-10-21 22:00:00,8,9,1,away,regular,118.1,28
+Stephen Curry,2025-10-21,2025-10-21 22:00:00,23,4,0,away,regular,118.1,32
+Brandin Podziemski,2025-10-21,2025-10-21 22:00:00,7,2,1,away,regular,118.1,33
+Al Horford,2025-10-21,2025-10-21 22:00:00,5,1,0,away,regular,118.1,20
+OG Anunoby,2025-10-22,2025-10-22 19:00:00,24,2,2,home,regular,111.4,38
+Karl-Anthony Towns,2025-10-22,2025-10-22 19:00:00,19,2,1,home,regular,111.4,31
+Mikal Bridges,2025-10-22,2025-10-22 19:00:00,16,6,1,home,regular,111.4,33
+Jalen Brunson,2025-10-22,2025-10-22 19:00:00,23,5,0,home,regular,111.4,34
+Michael Porter Jr.,2025-10-22,2025-10-22 19:00:00,12,5,1,away,regular,108.4,25
+Andrew Wiggins,2025-10-22,2025-10-22 19:00:00,18,1,0,away,regular,108.2,32
+Bam Adebayo,2025-10-22,2025-10-22 19:00:00,15,2,3,away,regular,108.2,34
+Norman Powell,2025-10-22,2025-10-22 19:00:00,28,4,2,away,regular,108.2,36
+Davion Mitchell,2025-10-22,2025-10-22 19:00:00,16,12,2,away,regular,108.2,35
+Paolo Banchero,2025-10-22,2025-10-22 19:00:00,24,1,0,home,regular,112.2,35
+Franz Wagner,2025-10-22,2025-10-22 19:00:00,24,6,0,home,regular,112.2,36
+Wendell Carter Jr.,2025-10-22,2025-10-22 19:00:00,9,1,5,home,regular,112.2,30
+Desmond Bane,2025-10-22,2025-10-22 19:00:00,23,3,0,home,regular,112.2,33
+Derrick White,2025-10-22,2025-10-22 19:30:00,25,4,0,home,regular,112.1,35
+Jaylen Brown,2025-10-22,2025-10-22 19:30:00,25,4,0,home,regular,112.1,36
+Tobias Harris,2025-10-22,2025-10-22 20:00:00,10,4,2,away,regular,105.3,34
+Julius Randle,2025-10-22,2025-10-22 22:00:00,19,6,1,away,regular,111.8,37
+Jaden McDaniels,2025-10-22,2025-10-22 22:00:00,18,2,0,away,regular,111.8,29
+Anthony Edwards,2025-10-22,2025-10-22 22:00:00,41,1,1,away,regular,111.8,39
+Jrue Holiday,2025-10-22,2025-10-22 22:00:00,14,7,0,home,regular,99.7,33
+Shai Gilgeous-Alexander,2025-10-23,2025-10-23 19:30:00,55,5,0,away,regular,115.2,45
+Pascal Siakam,2025-10-23,2025-10-23 19:30:00,32,4,3,home,regular,107.5,44
+Andrew Nembhard,2025-10-23,2025-10-23 19:30:00,4,4,0,home,regular,107.5,17
+Jimmy Butler III,2025-10-23,2025-10-23 22:17:00,21,6,3,home,regular,125.7,39
+Draymond Green,2025-10-23,2025-10-23 22:17:00,13,8,0,home,regular,125.7,34
+Stephen Curry,2025-10-23,2025-10-23 22:17:00,42,7,0,home,regular,125.7,37
+Brandin Podziemski,2025-10-23,2025-10-23 22:17:00,11,1,1,home,regular,125.7,34
+Al Horford,2025-10-23,2025-10-23 22:17:00,13,2,1,home,regular,125.7,29
+Giannis Antetokounmpo,2025-10-24,2025-10-24 18:30:00,31,7,7,away,regular,115.1,38
+Gary Trent Jr.,2025-10-24,2025-10-24 18:30:00,20,4,0,away,regular,115.1,29
+Bobby Portis,2025-10-24,2025-10-24 18:30:00,11,0,3,away,regular,115.1,21
+Paolo Banchero,2025-10-24,2025-10-24 19:00:00,11,1,0,home,regular,102.6,36
+Franz Wagner,2025-10-24,2025-10-24 19:00:00,27,2,2,home,regular,102.6,35
+Wendell Carter Jr.,2025-10-24,2025-10-24 19:00:00,10,2,3,home,regular,102.6,31
+Desmond Bane,2025-10-24,2025-10-24 19:00:00,15,5,2,home,regular,102.6,33
+Evan Mobley,2025-10-24,2025-10-24 19:30:00,13,5,3,away,regular,124.3,34
+Donovan Mitchell,2025-10-24,2025-10-24 19:30:00,35,5,0,away,regular,124.3,35
+Michael Porter Jr.,2025-10-24,2025-10-24 19:30:00,31,3,0,home,regular,113.7,36
+OG Anunoby,2025-10-24,2025-10-24 19:30:00,10,1,1,home,regular,109.4,29
+Karl-Anthony Towns,2025-10-24,2025-10-24 19:30:00,26,3,6,home,regular,109.4,33
+Mikal Bridges,2025-10-24,2025-10-24 19:30:00,12,2,2,home,regular,109.4,36
+Jalen Brunson,2025-10-24,2025-10-24 19:30:00,31,5,0,home,regular,109.4,35
+Josh Hart,2025-10-24,2025-10-24 19:30:00,2,3,6,home,regular,109.4,19
+Tobias Harris,2025-10-24,2025-10-24 20:00:00,9,4,1,away,regular,111.5,40
+Andrew Wiggins,2025-10-24,2025-10-24 20:00:00,10,3,4,away,regular,127.3,24
+Bam Adebayo,2025-10-24,2025-10-24 20:00:00,24,4,1,away,regular,127.3,28
+Norman Powell,2025-10-24,2025-10-24 20:00:00,15,2,0,away,regular,127.3,25
+Davion Mitchell,2025-10-24,2025-10-24 20:00:00,2,6,0,away,regular,127.3,21
+Jaren Jackson Jr.,2025-10-24,2025-10-24 20:00:00,19,1,0,home,regular,98.9,21
+Kentavious Caldwell-Pope,2025-10-24,2025-10-24 20:00:00,7,6,0,home,regular,98.9,23
+Julius Randle,2025-10-24,2025-10-24 22:00:00,26,6,3,away,regular,116.7,30
+Jaden McDaniels,2025-10-24,2025-10-24 22:00:00,10,0,1,away,regular,116.7,27
+Anthony Edwards,2025-10-24,2025-10-24 22:00:00,31,5,0,away,regular,116.7,35
+Rui Hachimura,2025-10-24,2025-10-24 22:00:00,23,0,1,home,regular,134.6,32
+Austin Reaves,2025-10-24,2025-10-24 22:00:00,25,11,0,home,regular,134.6,37
+Jimmy Butler III,2025-10-24,2025-10-24 22:00:00,14,4,1,away,regular,108,27
+Draymond Green,2025-10-24,2025-10-24 22:00:00,12,5,0,away,regular,108,21
+Stephen Curry,2025-10-24,2025-10-24 22:00:00,35,3,1,away,regular,108,27
+Brandin Podziemski,2025-10-24,2025-10-24 22:00:00,8,0,1,away,regular,108,22
+Kawhi Leonard,2025-10-24,2025-10-24 22:30:00,27,5,1,home,regular,133.8,33
+Ivica Zubac,2025-10-24,2025-10-24 22:30:00,8,4,0,home,regular,133.8,25
+James Harden,2025-10-24,2025-10-24 22:30:00,30,7,0,home,regular,133.8,28
+Paolo Banchero,2025-10-25,2025-10-25 19:00:00,24,1,1,home,regular,92,36
+Franz Wagner,2025-10-25,2025-10-25 19:00:00,17,1,1,home,regular,92,34
+Wendell Carter Jr.,2025-10-25,2025-10-25 19:00:00,8,1,5,home,regular,92,31
+Desmond Bane,2025-10-25,2025-10-25 19:00:00,14,3,3,home,regular,92,31
+Shai Gilgeous-Alexander,2025-10-25,2025-10-25 19:30:00,30,5,1,away,regular,117.8,29
+Pascal Siakam,2025-10-25,2025-10-25 20:00:00,13,6,1,away,regular,101.9,26
+Jaren Jackson Jr.,2025-10-25,2025-10-25 20:00:00,17,1,0,home,regular,119.5,25
+Kentavious Caldwell-Pope,2025-10-25,2025-10-25 20:00:00,10,5,0,home,regular,119.5,23
+Aaron Gordon,2025-10-25,2025-10-25 21:00:00,17,1,1,home,regular,123.7,25
+Jamal Murray,2025-10-25,2025-10-25 21:00:00,23,5,1,home,regular,123.7,32
+Christian Braun,2025-10-25,2025-10-25 21:00:00,20,3,2,home,regular,123.7,31
+Tim Hardaway Jr.,2025-10-25,2025-10-25 21:00:00,4,0,0,home,regular,123.7,26
+Derrick White,2025-10-26,2025-10-26 15:30:00,15,3,1,away,regular,108.1,37
+Jaylen Brown,2025-10-26,2025-10-26 15:30:00,41,4,2,away,regular,108.1,35
+Tobias Harris,2025-10-26,2025-10-26 15:30:00,18,4,2,home,regular,112.4,35
+Giannis Antetokounmpo,2025-10-26,2025-10-26 18:00:00,40,9,5,away,regular,112.6,33
+Gary Trent Jr.,2025-10-26,2025-10-26 18:00:00,6,2,0,away,regular,112.6,28
+Bobby Portis,2025-10-26,2025-10-26 18:00:00,10,1,1,away,regular,112.6,23
+Evan Mobley,2025-10-26,2025-10-26 18:00:00,23,6,1,home,regular,107.9,34
+Donovan Mitchell,2025-10-26,2025-10-26 18:00:00,24,4,0,home,regular,107.9,33
+OG Anunoby,2025-10-26,2025-10-26 18:00:00,14,1,1,away,regular,99.8,37
+Karl-Anthony Towns,2025-10-26,2025-10-26 18:00:00,15,2,1,away,regular,99.8,36
+Mikal Bridges,2025-10-26,2025-10-26 18:00:00,20,4,1,away,regular,99.8,37
+Jalen Brunson,2025-10-26,2025-10-26 18:00:00,37,7,2,away,regular,99.8,35
+Josh Hart,2025-10-26,2025-10-26 18:00:00,6,5,3,away,regular,99.8,29
+Pascal Siakam,2025-10-26,2025-10-26 19:00:00,33,8,1,away,regular,105.9,37
+Julius Randle,2025-10-26,2025-10-26 19:00:00,31,6,0,home,regular,112.6,39
+Jaden McDaniels,2025-10-26,2025-10-26 19:00:00,11,1,3,home,regular,112.6,35
+Anthony Edwards,2025-10-26,2025-10-26 19:00:00,5,0,0,home,regular,112.6,3
+Jrue Holiday,2025-10-26,2025-10-26 21:00:00,21,7,2,away,regular,101.9,34
+Kawhi Leonard,2025-10-26,2025-10-26 21:00:00,30,4,0,home,regular,110,35
+Ivica Zubac,2025-10-26,2025-10-26 21:00:00,21,3,2,home,regular,110,35
+James Harden,2025-10-26,2025-10-26 21:00:00,20,13,0,home,regular,110,38
+Rui Hachimura,2025-10-26,2025-10-26 21:00:00,18,2,0,away,regular,118.4,40
+Austin Reaves,2025-10-26,2025-10-26 21:00:00,51,9,1,away,regular,118.4,39
+Evan Mobley,2025-10-27,2025-10-27 19:00:00,15,5,2,away,regular,107,30
+Donovan Mitchell,2025-10-27,2025-10-27 19:00:00,35,2,0,away,regular,107,29
+Tobias Harris,2025-10-27,2025-10-27 19:00:00,10,1,0,home,regular,87.3,18
+Paolo Banchero,2025-10-27,2025-10-27 19:00:00,32,5,1,away,regular,125.6,38
+Franz Wagner,2025-10-27,2025-10-27 19:00:00,22,4,1,away,regular,125.6,36
+Wendell Carter Jr.,2025-10-27,2025-10-27 19:00:00,10,2,4,away,regular,125.6,34
+Desmond Bane,2025-10-27,2025-10-27 19:00:00,24,1,1,away,regular,125.6,34
+Michael Porter Jr.,2025-10-27,2025-10-27 20:00:00,18,2,1,away,regular,117.3,28
+Shai Gilgeous-Alexander,2025-10-27,2025-10-27 20:30:00,23,8,0,away,regular,101.3,35
+Aaron Gordon,2025-10-27,2025-10-27 21:30:00,9,3,0,away,regular,123.3,33
+Jamal Murray,2025-10-27,2025-10-27 21:30:00,43,3,0,away,regular,123.3,37
+Christian Braun,2025-10-27,2025-10-27 21:30:00,7,2,1,away,regular,123.3,27
+Tim Hardaway Jr.,2025-10-27,2025-10-27 21:30:00,20,3,0,away,regular,123.3,32
+Julius Randle,2025-10-27,2025-10-27 21:30:00,24,3,1,home,regular,107.8,35
+Jaden McDaniels,2025-10-27,2025-10-27 21:30:00,25,1,0,home,regular,107.8,35
+Jimmy Butler III,2025-10-27,2025-10-27 22:00:00,20,5,0,home,regular,124.5,31
+Draymond Green,2025-10-27,2025-10-27 22:00:00,7,10,0,home,regular,124.5,28
+Stephen Curry,2025-10-27,2025-10-27 22:00:00,16,3,0,home,regular,124.5,30
+Brandin Podziemski,2025-10-27,2025-10-27 22:00:00,23,6,2,home,regular,124.5,32
+Jrue Holiday,2025-10-27,2025-10-27 22:30:00,24,6,0,away,regular,111.3,30
+Rui Hachimura,2025-10-27,2025-10-27 22:30:00,16,1,1,home,regular,97.8,36
+Austin Reaves,2025-10-27,2025-10-27 22:30:00,41,5,0,home,regular,97.8,39
+Andrew Wiggins,2025-10-28,2025-10-28 19:30:00,21,2,1,home,regular,132.5,30
+Bam Adebayo,2025-10-28,2025-10-28 19:30:00,26,2,1,home,regular,132.5,30
+Davion Mitchell,2025-10-28,2025-10-28 19:30:00,8,9,0,home,regular,132.5,30
+OG Anunoby,2025-10-28,2025-10-28 20:00:00,9,5,2,away,regular,113.1,34
+Karl-Anthony Towns,2025-10-28,2025-10-28 20:00:00,8,1,5,away,regular,113.1,35
+Mikal Bridges,2025-10-28,2025-10-28 20:00:00,24,6,3,away,regular,113.1,39
+Jalen Brunson,2025-10-28,2025-10-28 20:00:00,36,3,0,away,regular,113.1,35
+Josh Hart,2025-10-28,2025-10-28 20:00:00,3,4,1,away,regular,113.1,26
+Shai Gilgeous-Alexander,2025-10-28,2025-10-28 20:00:00,31,4,0,home,regular,105.5,36
+Jimmy Butler III,2025-10-28,2025-10-28 23:00:00,21,5,2,home,regular,108,32
+Draymond Green,2025-10-28,2025-10-28 23:00:00,7,4,2,home,regular,108,31
+Stephen Curry,2025-10-28,2025-10-28 23:00:00,19,8,0,home,regular,108,26
+Al Horford,2025-10-28,2025-10-28 23:00:00,2,0,3,home,regular,108,21
+Brandin Podziemski,2025-10-28,2025-10-28 23:00:00,12,4,0,home,regular,108,27
+Evan Mobley,2025-10-29,2025-10-29 19:00:00,19,4,4,away,regular,104.4,34
+Donovan Mitchell,2025-10-29,2025-10-29 19:00:00,15,6,0,away,regular,104.4,32
+Derrick White,2025-10-29,2025-10-29 19:00:00,19,4,1,home,regular,128.1,35
+Jaylen Brown,2025-10-29,2025-10-29 19:00:00,30,4,0,home,regular,128.1,32
+Paolo Banchero,2025-10-29,2025-10-29 19:00:00,24,7,4,away,regular,113.1,35
+Franz Wagner,2025-10-29,2025-10-29 19:00:00,22,2,1,away,regular,113.1,33
+Wendell Carter Jr.,2025-10-29,2025-10-29 19:00:00,8,1,1,away,regular,113.1,15
+Desmond Bane,2025-10-29,2025-10-29 19:00:00,12,2,2,away,regular,113.1,31
+Tobias Harris,2025-10-29,2025-10-29 19:00:00,23,3,0,home,regular,125,30
+Michael Porter Jr.,2025-10-29,2025-10-29 19:30:00,32,2,2,home,regular,111,33
+Pascal Siakam,2025-10-29,2025-10-29 20:30:00,27,3,3,away,regular,92.7,37
+Rui Hachimura,2025-10-29,2025-10-29 21:30:00,17,4,2,away,regular,115.2,37
+Austin Reaves,2025-10-29,2025-10-29 21:30:00,28,16,0,away,regular,115.2,40
+Julius Randle,2025-10-29,2025-10-29 21:30:00,33,6,0,home,regular,114.2,36
+Jaden McDaniels,2025-10-29,2025-10-29 21:30:00,30,1,3,home,regular,114.2,41
+Jaren Jackson Jr.,2025-10-29,2025-10-29 22:00:00,18,3,1,away,regular,106.8,32
+Kentavious Caldwell-Pope,2025-10-29,2025-10-29 22:00:00,11,5,0,away,regular,106.8,19
+Paolo Banchero,2025-10-30,2025-10-30 19:00:00,20,9,1,away,regular,128,33
+Franz Wagner,2025-10-30,2025-10-30 19:00:00,21,3,2,away,regular,128,34
+Wendell Carter Jr.,2025-10-30,2025-10-30 19:00:00,18,3,5,away,regular,128,27
+Desmond Bane,2025-10-30,2025-10-30 19:00:00,9,7,2,away,regular,128,28
+Jimmy Butler III,2025-10-30,2025-10-30 20:00:00,23,3,6,away,regular,100.5,37
+Draymond Green,2025-10-30,2025-10-30 20:00:00,7,6,0,away,regular,100.5,33
+Stephen Curry,2025-10-30,2025-10-30 20:00:00,27,4,0,away,regular,100.5,35
+Al Horford,2025-10-30,2025-10-30 20:00:00,3,2,1,away,regular,100.5,20
+Brandin Podziemski,2025-10-30,2025-10-30 20:00:00,9,3,0,away,regular,100.5,26
+Pascal Siakam,2025-10-31,2025-10-31 19:00:00,18,5,0,home,regular,100.4,30
+Derrick White,2025-10-31,2025-10-31 19:00:00,15,4,1,away,regular,108.7,35
+Jaylen Brown,2025-10-31,2025-10-31 19:00:00,32,6,1,away,regular,108.7,32
+Evan Mobley,2025-10-31,2025-10-31 19:30:00,29,3,3,home,regular,101.9,36
+OG Anunoby,2025-10-31,2025-10-31 20:00:00,26,3,1,away,regular,123.6,36
+Karl-Anthony Towns,2025-10-31,2025-10-31 20:00:00,22,4,2,away,regular,123.6,32
+Mikal Bridges,2025-10-31,2025-10-31 20:00:00,23,6,0,away,regular,123.6,38
+Jalen Brunson,2025-10-31,2025-10-31 20:00:00,29,7,1,away,regular,123.6,35
+Josh Hart,2025-10-31,2025-10-31 20:00:00,0,1,0,away,regular,123.6,15
+Rui Hachimura,2025-10-31,2025-10-31 21:30:00,9,1,0,away,regular,116.4,38
+Austin Reaves,2025-10-31,2025-10-31 21:30:00,21,4,0,away,regular,116.4,36
+Jaren Jackson Jr.,2025-10-31,2025-10-31 21:30:00,15,1,0,home,regular,112.7,32
+Kentavious Caldwell-Pope,2025-10-31,2025-10-31 21:30:00,12,5,0,home,regular,112.7,24
+Aaron Gordon,2025-10-31,2025-10-31 22:00:00,14,1,2,away,regular,105.3,32
+Jamal Murray,2025-10-31,2025-10-31 22:00:00,22,3,0,away,regular,105.3,34
+Christian Braun,2025-10-31,2025-10-31 22:00:00,5,1,1,away,regular,105.3,30
+Tim Hardaway Jr.,2025-10-31,2025-10-31 22:00:00,11,2,0,away,regular,105.3,22
+Jrue Holiday,2025-10-31,2025-10-31 22:00:00,11,13,0,home,regular,107.2,32
+Giannis Antetokounmpo,2025-11-01,2025-11-01 17:00:00,26,8,4,home,regular,136.2,32
+Gary Trent Jr.,2025-11-01,2025-11-01 17:00:00,17,2,0,home,regular,136.2,32
+Bobby Portis,2025-11-01,2025-11-01 17:00:00,16,2,1,home,regular,136.2,23
+Julius Randle,2025-11-01,2025-11-01 18:00:00,30,4,1,away,regular,123,32
+Jaden McDaniels,2025-11-01,2025-11-01 18:00:00,14,6,0,away,regular,123,32
+Jimmy Butler III,2025-11-01,2025-11-01 19:00:00,20,7,3,away,regular,103.1,34
+Draymond Green,2025-11-01,2025-11-01 19:00:00,8,1,1,away,regular,103.1,30
+Stephen Curry,2025-11-01,2025-11-01 19:00:00,24,2,0,away,regular,103.1,29
+Brandin Podziemski,2025-11-01,2025-11-01 19:00:00,16,3,0,away,regular,103.1,35
+Al Horford,2025-11-01,2025-11-01 19:00:00,4,1,0,away,regular,103.1,15
+Derrick White,2025-11-01,2025-11-01 20:00:00,5,2,1,home,regular,98.9,19
+Jaylen Brown,2025-11-01,2025-11-01 20:00:00,12,5,0,home,regular,98.9,22
+Tobias Harris,2025-11-01,2025-11-01 22:00:00,11,1,0,home,regular,122,36
+Michael Porter Jr.,2025-11-02,2025-11-02 18:00:00,17,2,3,home,regular,97.7,31
+Evan Mobley,2025-11-02,2025-11-02 18:00:00,14,5,2,home,regular,106.4,35
+Donovan Mitchell,2025-11-02,2025-11-02 18:00:00,37,5,0,home,regular,106.4,36
+Jaren Jackson Jr.,2025-11-02,2025-11-02 18:00:00,20,3,2,away,regular,106.3,32
+Kentavious Caldwell-Pope,2025-11-02,2025-11-02 18:00:00,12,2,0,away,regular,106.3,27
+OG Anunoby,2025-11-02,2025-11-02 19:00:00,21,4,0,home,regular,125.9,35
+Karl-Anthony Towns,2025-11-02,2025-11-02 19:00:00,20,5,3,home,regular,125.9,36
+Mikal Bridges,2025-11-02,2025-11-02 19:00:00,10,9,3,home,regular,125.9,35
+Jalen Brunson,2025-11-02,2025-11-02 19:00:00,31,3,0,home,regular,125.9,32
+Josh Hart,2025-11-02,2025-11-02 19:00:00,14,3,3,home,regular,125.9,26
+Andrew Wiggins,2025-11-02,2025-11-02 21:30:00,15,1,3,away,regular,113.4,37
+Bam Adebayo,2025-11-02,2025-11-02 21:30:00,17,5,1,away,regular,113.4,36
+Davion Mitchell,2025-11-02,2025-11-02 21:30:00,8,8,0,away,regular,113.4,32
+Rui Hachimura,2025-11-02,2025-11-02 21:30:00,15,2,2,home,regular,119.1,31
+Austin Reaves,2025-11-02,2025-11-02 21:30:00,26,11,2,home,regular,119.1,38
+Julius Randle,2025-11-03,2025-11-03 19:00:00,19,10,2,away,regular,129.7,34
+Jaden McDaniels,2025-11-03,2025-11-03 19:00:00,22,3,0,away,regular,129.7,29
+Giannis Antetokounmpo,2025-11-03,2025-11-03 19:00:00,33,5,5,away,regular,109.7,32
+Gary Trent Jr.,2025-11-03,2025-11-03 19:00:00,11,2,0,away,regular,109.7,34
+Bobby Portis,2025-11-03,2025-11-03 19:00:00,8,1,1,away,regular,109.7,16
+Pascal Siakam,2025-11-03,2025-11-03 19:00:00,32,8,2,home,regular,109.8,38
+Jaren Jackson Jr.,2025-11-03,2025-11-03 20:00:00,21,1,1,home,regular,106,31
+Kentavious Caldwell-Pope,2025-11-03,2025-11-03 20:00:00,2,1,1,home,regular,106,25
+Aaron Gordon,2025-11-03,2025-11-03 21:00:00,20,1,3,home,regular,120.9,30
+Jamal Murray,2025-11-03,2025-11-03 21:00:00,15,7,0,home,regular,120.9,32
+Christian Braun,2025-11-03,2025-11-03 21:00:00,21,3,0,home,regular,120.9,31
+Tim Hardaway Jr.,2025-11-03,2025-11-03 21:00:00,5,2,0,home,regular,120.9,23
+Rui Hachimura,2025-11-03,2025-11-03 22:00:00,28,1,0,away,regular,121.7,38
+Jrue Holiday,2025-11-03,2025-11-03 22:00:00,8,6,2,home,regular,113.6,36
+Andrew Wiggins,2025-11-03,2025-11-03 22:30:00,17,2,1,away,regular,115.9,32
+Bam Adebayo,2025-11-03,2025-11-03 22:30:00,25,4,0,away,regular,115.9,30
+Norman Powell,2025-11-03,2025-11-03 22:30:00,21,2,0,away,regular,115.9,28
+Davion Mitchell,2025-11-03,2025-11-03 22:30:00,8,9,2,away,regular,115.9,34
+Kawhi Leonard,2025-11-03,2025-11-03 22:30:00,27,4,2,home,regular,111.9,37
+Ivica Zubac,2025-11-03,2025-11-03 22:30:00,9,3,5,home,regular,111.9,33
+James Harden,2025-11-03,2025-11-03 22:30:00,29,8,0,home,regular,111.9,39
+Giannis Antetokounmpo,2025-11-04,2025-11-04 19:30:00,22,3,3,away,regular,98.8,24
+Gary Trent Jr.,2025-11-04,2025-11-04 19:30:00,6,4,0,away,regular,98.8,21
+Bobby Portis,2025-11-04,2025-11-04 19:30:00,2,2,0,away,regular,98.8,20
+Paolo Banchero,2025-11-04,2025-11-04 20:00:00,22,8,1,away,regular,109.2,37
+Franz Wagner,2025-11-04,2025-11-04 20:00:00,18,2,3,away,regular,109.2,34
+Wendell Carter Jr.,2025-11-04,2025-11-04 20:00:00,11,1,3,away,regular,109.2,30
+Desmond Bane,2025-11-04,2025-11-04 20:00:00,9,2,1,away,regular,109.2,23
+Jimmy Butler III,2025-11-04,2025-11-04 22:00:00,2,2,1,home,regular,118.2,14
+Draymond Green,2025-11-04,2025-11-04 22:00:00,2,8,0,home,regular,118.2,33
+Stephen Curry,2025-11-04,2025-11-04 22:00:00,28,3,1,home,regular,118.2,34
+Brandin Podziemski,2025-11-04,2025-11-04 22:00:00,13,4,0,home,regular,118.2,24
+Shai Gilgeous-Alexander,2025-11-04,2025-11-04 23:00:00,30,12,0,away,regular,127.7,29
+Ivica Zubac,2025-11-04,2025-11-04 23:00:00,7,2,4,home,regular,106.1,26
+James Harden,2025-11-04,2025-11-04 23:00:00,25,6,0,home,regular,106.1,30
+Evan Mobley,2025-11-05,2025-11-05 19:00:00,23,3,1,home,regular,126.3,34
+Donovan Mitchell,2025-11-05,2025-11-05 19:00:00,46,8,0,home,regular,126.3,35
+Michael Porter Jr.,2025-11-05,2025-11-05 19:00:00,32,3,2,away,regular,106.3,35
+Pascal Siakam,2025-11-05,2025-11-05 19:00:00,23,10,0,home,regular,96.5,36
+OG Anunoby,2025-11-05,2025-11-05 19:30:00,25,1,5,home,regular,138.4,32
+Karl-Anthony Towns,2025-11-05,2025-11-05 19:30:00,15,4,3,home,regular,138.4,31
+Mikal Bridges,2025-11-05,2025-11-05 19:30:00,13,5,0,home,regular,138.4,33
+Jalen Brunson,2025-11-05,2025-11-05 19:30:00,23,10,1,home,regular,138.4,33
+Josh Hart,2025-11-05,2025-11-05 19:30:00,18,4,0,home,regular,138.4,27
+Jaren Jackson Jr.,2025-11-05,2025-11-05 20:00:00,9,1,1,home,regular,102.4,29
+Kentavious Caldwell-Pope,2025-11-05,2025-11-05 20:00:00,4,2,2,home,regular,102.4,24
+Andrew Wiggins,2025-11-05,2025-11-05 21:00:00,22,5,0,away,regular,104.7,32
+Bam Adebayo,2025-11-05,2025-11-05 21:00:00,2,0,0,away,regular,104.7,8
+Norman Powell,2025-11-05,2025-11-05 21:00:00,23,0,0,away,regular,104.7,31
+Davion Mitchell,2025-11-05,2025-11-05 21:00:00,10,9,0,away,regular,104.7,31
+Aaron Gordon,2025-11-05,2025-11-05 21:00:00,24,1,1,home,regular,111.6,31
+Jamal Murray,2025-11-05,2025-11-05 21:00:00,14,3,2,home,regular,111.6,34
+Christian Braun,2025-11-05,2025-11-05 21:00:00,11,7,4,home,regular,111.6,35
+Tim Hardaway Jr.,2025-11-05,2025-11-05 21:00:00,18,0,1,home,regular,111.6,24
+Shai Gilgeous-Alexander,2025-11-05,2025-11-05 22:00:00,35,4,2,away,regular,111.6,38
+Jrue Holiday,2025-11-05,2025-11-05 22:00:00,22,3,1,home,regular,110.9,35
+Brandin Podziemski,2025-11-05,2025-11-05 22:00:00,14,9,1,away,regular,107.3,31
+Al Horford,2025-11-05,2025-11-05 22:00:00,0,2,1,away,regular,107.3,27
+Ivica Zubac,2025-11-06,2025-11-06 21:00:00,23,2,5,away,regular,106,27
+Derrick White,2025-11-07,2025-11-07 19:00:00,16,10,1,away,regular,105.7,37
+Jaylen Brown,2025-11-07,2025-11-07 19:00:00,32,3,0,away,regular,105.7,36
+Paolo Banchero,2025-11-07,2025-11-07 19:00:00,15,4,1,home,regular,123.4,36
+Franz Wagner,2025-11-07,2025-11-07 19:00:00,27,6,3,home,regular,123.4,37
+Wendell Carter Jr.,2025-11-07,2025-11-07 19:00:00,18,1,2,home,regular,123.4,31
+Desmond Bane,2025-11-07,2025-11-07 19:00:00,22,7,0,home,regular,123.4,36
+Michael Porter Jr.,2025-11-07,2025-11-07 19:30:00,28,2,1,home,regular,103.4,32
+Andrew Wiggins,2025-11-07,2025-11-07 20:00:00,22,4,0,home,regular,117.6,36
+Norman Powell,2025-11-07,2025-11-07 20:00:00,25,3,0,home,regular,117.6,27
+Davion Mitchell,2025-11-07,2025-11-07 20:00:00,9,5,1,home,regular,117.6,32
+Jaren Jackson Jr.,2025-11-07,2025-11-07 20:00:00,17,0,0,home,regular,112,29
+Kentavious Caldwell-Pope,2025-11-07,2025-11-07 20:00:00,12,1,1,home,regular,112,24
+Giannis Antetokounmpo,2025-11-07,2025-11-07 20:00:00,41,9,4,home,regular,116.8,37
+Gary Trent Jr.,2025-11-07,2025-11-07 20:00:00,5,0,1,home,regular,116.8,23
+Bobby Portis,2025-11-07,2025-11-07 20:00:00,7,2,1,home,regular,116.8,20
+Jimmy Butler III,2025-11-07,2025-11-07 22:00:00,16,3,1,away,regular,107.7,31
+Draymond Green,2025-11-07,2025-11-07 22:00:00,17,4,1,away,regular,107.7,26
+Brandin Podziemski,2025-11-07,2025-11-07 22:00:00,7,3,0,away,regular,107.7,25
+Shai Gilgeous-Alexander,2025-11-07,2025-11-07 22:00:00,30,3,0,away,regular,126.2,29
+Rui Hachimura,2025-11-08,2025-11-08 20:00:00,8,0,1,away,regular,105.4,23
+Evan Mobley,2025-11-08,2025-11-08 20:00:00,24,5,2,home,regular,122.6,34
+Donovan Mitchell,2025-11-08,2025-11-08 20:00:00,29,6,0,home,regular,122.6,35
+Jrue Holiday,2025-11-08,2025-11-08 20:00:00,18,13,3,away,regular,111.9,35
+Andrew Wiggins,2025-11-08,2025-11-08 20:00:00,15,1,0,home,regular,118.4,33
+Norman Powell,2025-11-08,2025-11-08 20:00:00,22,3,0,home,regular,118.4,30
+Davion Mitchell,2025-11-08,2025-11-08 20:00:00,11,8,0,home,regular,118.4,26
+Pascal Siakam,2025-11-08,2025-11-08 21:00:00,14,5,2,away,regular,96.2,33
+Andrew Nembhard,2025-11-08,2025-11-08 21:00:00,22,6,0,away,regular,96.2,33
+Christian Braun,2025-11-08,2025-11-08 21:00:00,8,2,2,home,regular,110.3,27
+Tim Hardaway Jr.,2025-11-08,2025-11-08 21:00:00,17,4,0,home,regular,110.3,24
+Ivica Zubac,2025-11-08,2025-11-08 22:30:00,21,4,2,home,regular,113.3,35
+James Harden,2025-11-08,2025-11-08 22:30:00,13,13,0,home,regular,113.3,41
+Giannis Antetokounmpo,2025-11-09,2025-11-09 15:30:00,37,3,4,home,regular,120.3,36
+Gary Trent Jr.,2025-11-09,2025-11-09 15:30:00,9,1,0,home,regular,120.3,29
+Bobby Portis,2025-11-09,2025-11-09 15:30:00,11,4,0,home,regular,120.3,24
+OG Anunoby,2025-11-09,2025-11-09 18:00:00,19,3,4,home,regular,134.8,27
+Karl-Anthony Towns,2025-11-09,2025-11-09 18:00:00,28,2,3,home,regular,134.8,28
+Mikal Bridges,2025-11-09,2025-11-09 18:00:00,16,5,0,home,regular,134.8,28
+Jalen Brunson,2025-11-09,2025-11-09 18:00:00,19,7,0,home,regular,134.8,29
+Josh Hart,2025-11-09,2025-11-09 18:00:00,11,2,3,home,regular,134.8,21
+Derrick White,2025-11-09,2025-11-09 18:00:00,21,4,1,away,regular,114.4,36
+Jaylen Brown,2025-11-09,2025-11-09 18:00:00,27,1,1,away,regular,114.4,34
+Paolo Banchero,2025-11-09,2025-11-09 18:00:00,28,4,0,home,regular,109.1,35
+Franz Wagner,2025-11-09,2025-11-09 18:00:00,20,3,7,home,regular,109.1,37
+Wendell Carter Jr.,2025-11-09,2025-11-09 18:00:00,12,1,1,home,regular,109.1,32
+Desmond Bane,2025-11-09,2025-11-09 18:00:00,9,6,0,home,regular,109.1,35
+Shai Gilgeous-Alexander,2025-11-09,2025-11-09 18:00:00,35,6,1,away,regular,110.2,35
+Jaren Jackson Jr.,2025-11-09,2025-11-09 18:00:00,17,2,2,home,regular,98.1,29
+Kentavious Caldwell-Pope,2025-11-09,2025-11-09 18:00:00,9,3,0,home,regular,98.1,23
+Jimmy Butler III,2025-11-09,2025-11-09 20:30:00,21,7,3,home,regular,110.4,30
+Draymond Green,2025-11-09,2025-11-09 20:30:00,3,3,0,home,regular,110.4,25
+Brandin Podziemski,2025-11-09,2025-11-09 20:30:00,14,1,0,home,regular,110.4,32
+Al Horford,2025-11-09,2025-11-09 20:30:00,12,1,1,home,regular,110.4,18
+Julius Randle,2025-11-09,2025-11-09 21:00:00,19,4,2,away,regular,131.4,26
+Jaden McDaniels,2025-11-09,2025-11-09 21:00:00,21,3,1,away,regular,131.4,26
+Anthony Edwards,2025-11-09,2025-11-09 21:00:00,26,5,1,away,regular,131.4,30
+Rui Hachimura,2025-11-10,2025-11-10 19:00:00,21,1,2,away,regular,123.7,36
+Austin Reaves,2025-11-10,2025-11-10 19:00:00,24,7,0,away,regular,123.7,29
+Jrue Holiday,2025-11-10,2025-11-10 19:00:00,13,7,2,away,regular,111.5,36
+Paolo Banchero,2025-11-10,2025-11-10 19:00:00,28,3,0,home,regular,110.6,35
+Franz Wagner,2025-11-10,2025-11-10 19:00:00,19,6,2,home,regular,110.6,36
+Wendell Carter Jr.,2025-11-10,2025-11-10 19:00:00,19,5,5,home,regular,110.6,30
+Desmond Bane,2025-11-10,2025-11-10 19:00:00,22,7,1,home,regular,110.6,33
+Evan Mobley,2025-11-10,2025-11-10 19:30:00,21,5,8,away,regular,119.1,39
+Donovan Mitchell,2025-11-10,2025-11-10 19:30:00,28,8,5,away,regular,119.1,41
+Andrew Wiggins,2025-11-10,2025-11-10 19:30:00,23,5,1,home,regular,118.6,37
+Norman Powell,2025-11-10,2025-11-10 19:30:00,33,2,0,home,regular,118.6,39
+Davion Mitchell,2025-11-10,2025-11-10 19:30:00,11,8,0,home,regular,118.6,38
+Giannis Antetokounmpo,2025-11-10,2025-11-10 20:30:00,30,6,3,away,regular,108.4,37
+Gary Trent Jr.,2025-11-10,2025-11-10 20:30:00,3,1,0,away,regular,108.4,27
+Bobby Portis,2025-11-10,2025-11-10 20:30:00,13,0,2,away,regular,108.4,27
+Ivica Zubac,2025-11-10,2025-11-10 22:30:00,13,1,3,home,regular,108.5,30
+James Harden,2025-11-10,2025-11-10 22:30:00,35,11,3,home,regular,108.5,39
+Michael Porter Jr.,2025-11-11,2025-11-11 19:30:00,21,3,1,home,regular,107.8,36
+OG Anunoby,2025-11-11,2025-11-11 19:30:00,16,3,0,home,regular,119,36
+Karl-Anthony Towns,2025-11-11,2025-11-11 19:30:00,21,4,4,home,regular,119,32
+Mikal Bridges,2025-11-11,2025-11-11 19:30:00,22,5,4,home,regular,119,38
+Jalen Brunson,2025-11-11,2025-11-11 19:30:00,32,10,0,home,regular,119,36
+Josh Hart,2025-11-11,2025-11-11 19:30:00,8,8,0,home,regular,119,30
+Derrick White,2025-11-11,2025-11-11 20:00:00,18,7,0,away,regular,101.7,35
+Jaylen Brown,2025-11-11,2025-11-11 20:00:00,24,5,1,away,regular,101.7,35
+Jimmy Butler III,2025-11-11,2025-11-11 20:00:00,12,2,1,away,regular,100.2,22
+Draymond Green,2025-11-11,2025-11-11 20:00:00,3,4,0,away,regular,100.2,22
+Stephen Curry,2025-11-11,2025-11-11 20:00:00,11,0,0,away,regular,100.2,20
+Brandin Podziemski,2025-11-11,2025-11-11 20:00:00,10,1,0,away,regular,100.2,21
+Aaron Gordon,2025-11-11,2025-11-11 23:00:00,17,3,4,away,regular,127.2,30
+Jamal Murray,2025-11-11,2025-11-11 23:00:00,23,8,0,away,regular,127.2,37
+Christian Braun,2025-11-11,2025-11-11 23:00:00,12,1,0,away,regular,127.2,30
+Tim Hardaway Jr.,2025-11-11,2025-11-11 23:00:00,6,1,0,away,regular,127.2,24
+Gary Trent Jr.,2025-11-12,2025-11-12 19:00:00,2,4,0,away,regular,107.9,29
+Bobby Portis,2025-11-12,2025-11-12 19:00:00,14,1,3,away,regular,107.9,23
+OG Anunoby,2025-11-12,2025-11-12 19:00:00,8,1,0,home,regular,104.8,34
+Karl-Anthony Towns,2025-11-12,2025-11-12 19:00:00,15,4,2,home,regular,104.8,35
+Mikal Bridges,2025-11-12,2025-11-12 19:00:00,6,2,0,home,regular,104.8,28
+Jalen Brunson,2025-11-12,2025-11-12 19:00:00,31,6,1,home,regular,104.8,37
+Josh Hart,2025-11-12,2025-11-12 19:00:00,10,2,1,home,regular,104.8,18
+Jaren Jackson Jr.,2025-11-12,2025-11-12 19:30:00,18,0,2,away,regular,93.7,23
+Kentavious Caldwell-Pope,2025-11-12,2025-11-12 19:30:00,0,3,1,away,regular,93.7,19
+Derrick White,2025-11-12,2025-11-12 19:30:00,20,4,3,home,regular,134.7,26
+Jaylen Brown,2025-11-12,2025-11-12 19:30:00,19,6,3,home,regular,134.7,25
+Andrew Wiggins,2025-11-12,2025-11-12 19:30:00,17,6,2,home,regular,103.8,33
+Norman Powell,2025-11-12,2025-11-12 19:30:00,27,5,0,home,regular,103.8,33
+Davion Mitchell,2025-11-12,2025-11-12 19:30:00,16,4,0,home,regular,103.8,34
+Rui Hachimura,2025-11-12,2025-11-12 21:47:00,13,1,0,away,regular,91.7,33
+Austin Reaves,2025-11-12,2025-11-12 21:47:00,13,3,0,away,regular,91.7,30
+Shai Gilgeous-Alexander,2025-11-12,2025-11-12 21:47:00,30,9,0,home,regular,117.3,29
+Aaron Gordon,2025-11-12,2025-11-12 22:30:00,18,0,2,away,regular,129.5,31
+Jamal Murray,2025-11-12,2025-11-12 22:30:00,15,4,1,away,regular,129.5,33
+Christian Braun,2025-11-12,2025-11-12 22:30:00,6,4,2,away,regular,129.5,16
+Tim Hardaway Jr.,2025-11-12,2025-11-12 22:30:00,12,3,0,away,regular,129.5,21
+Ivica Zubac,2025-11-12,2025-11-12 22:30:00,18,1,6,home,regular,120.4,32
+James Harden,2025-11-12,2025-11-12 22:30:00,23,5,0,home,regular,120.4,30
