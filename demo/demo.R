@@ -7,8 +7,6 @@
 #               ||
 # _______________||________________
 
-
-
 # Carga de paquetes necesarios para el proyecto
 
 load_package <- function(package) {
@@ -19,9 +17,7 @@ load_package <- function(package) {
 }
 
 load_package("dplyr")
-
 load_package("hoopR")
-
 load_package("ggplot2")
 
 # Funciones auxiliares
@@ -36,7 +32,7 @@ calculate_accuracy <- function(actual, predicted, k) {
 }
 
 all_data_clean <- read.csv("data_clean.csv", header = TRUE)
-players <- read.csv("players.csv", header = TRUE)[[1]]
+players <- read.csv("players.csv", header = TRUE)
 player_models <- readRDS("player_models.rds")
 
 k_coefficients <- read.csv("k_coefficients.csv", header = TRUE)
@@ -44,7 +40,11 @@ points_k <- k_coefficients$points
 assists_k <- k_coefficients$assists
 off_rebounds_k <- k_coefficients$off_rebounds
 
-for (player in players) {
+for (i in 1:nrow(players)) {
+  row <- players[i, ]
+  player <- row[[1]]
+  opponent_team_name <- row[[2]]
+  
   testing_data <- all_data_clean %>%
     filter(athlete_display_name == player) %>%
     slice_head()
@@ -81,14 +81,28 @@ for (player in players) {
     off_rebounds_k
   )
   
-  cat("\n------------------------------------------------------\n")
-  cat(sprintf("Player: %-20s\n", player))
   cat("------------------------------------------------------\n")
-  cat(sprintf("Stat           | Predicted | Actual | Accuracy (%%)\n"))
+  cat(sprintf("Jugador: %-20s\n", player))
+  cat(sprintf("Equipo Rival: %-20s\n", opponent_team_name))
+  cat("------------------------------------------------------\n")
+  cat("Estadística    | Predicho  | Real   | Exactitud (%)\n")
+  
   cat(sprintf("%-14s | %-9.2f | %-6.2f | %-6.2f\n",
-              "Points", prediction$points, actual_points, points_accuracy*100))
+              "Puntos",
+              prediction$points,
+              actual_points,
+              points_accuracy))
+  
   cat(sprintf("%-14s | %-9.2f | %-6.2f | %-6.2f\n",
-              "Assists", prediction$assists, actual_assists, assists_accuracy*100))
+              "Asistencias",
+              prediction$assists,
+              actual_assists,
+              assists_accuracy))
+  
   cat(sprintf("%-14s | %-9.2f | %-6.2f | %-6.2f\n",
-              "Off. Rebounds", prediction$off_rebounds, actual_off_rebounds, off_rebounds_accuracy*100))
+              "Reb. Ofensivos",
+              prediction$off_rebounds,
+              actual_off_rebounds,
+              off_rebounds_accuracy))
+  cat("\n")
 }
