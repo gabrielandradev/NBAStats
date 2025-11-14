@@ -31,8 +31,8 @@ calculate_accuracy <- function(actual, predicted, k) {
   return(1 / (1 + mae / k))
 }
 
-all_data_clean <- read.csv("data_clean_test.csv", header = TRUE)
-players <- read.csv("players_test.csv", header = TRUE)
+all_data_clean <- read.csv("data_clean.csv", header = TRUE)
+players <- read.csv("players.csv", header = TRUE)
 player_models <- readRDS("player_models.rds")
 
 k_coefficients <- read.csv("k_coefficients.csv", header = TRUE)
