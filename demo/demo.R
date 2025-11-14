@@ -91,18 +91,18 @@ for (i in 1:nrow(players)) {
               "Puntos",
               prediction$points,
               actual_points,
-              points_accuracy))
+              points_accuracy*100))
   
   cat(sprintf("%-14s | %-9.2f | %-6.2f | %-6.2f\n",
               "Asistencias",
               prediction$assists,
               actual_assists,
-              assists_accuracy))
+              assists_accuracy*100))
   
   cat(sprintf("%-14s | %-9.2f | %-6.2f | %-6.2f\n",
               "Reb. Ofensivos",
               prediction$off_rebounds,
               actual_off_rebounds,
-              off_rebounds_accuracy))
+              off_rebounds_accuracy*100))
   cat("\n")
 }
